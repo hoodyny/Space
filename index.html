@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
+    <script src="assets/js/script.js" defer></script>
 </head>
 <body>
     <div class="space">
@@ -14,25 +15,26 @@
             <img src="assets/img/rocket.png" alt="" class="rocket">
         </div>
         <div class="control-panel">
-            <input type="password" placeholder="Enter password to unlock">
-            <input type="button" value="OK" class="button">
-            <div class="check-buttons">
-                <input type="checkbox" class="checkbox">
-                <input type="checkbox" class="checkbox">
-                <input type="checkbox" class="checkbox">
-                <input type="checkbox" class="checkbox">
-                <input type="checkbox" class="checkbox">
-                <input type="checkbox" class="checkbox">
+            <div class="control-panel__inner">
+                <input type="password" placeholder="Enter password to unlock" class="field">
+                <input type="button" value="OK" class="submit">
+                <div class="check-buttons">
+                    <input type="checkbox" class="checkbox" disabled>
+                    <input type="checkbox" class="checkbox" disabled>
+                    <input type="checkbox" class="checkbox" disabled>
+                    <input type="checkbox" class="checkbox" disabled>
+                    <input type="checkbox" class="checkbox" disabled>
+                    <input type="checkbox" class="checkbox" disabled>
+                </div>
+                <div class="levers">
+                    <input type="range" name="lever" id="" class="lever" min="0" max="5" disabled>
+                    <input type="range" name="lever" id="" class="lever" min="0" max="5" disabled>
+                    <input type="range" name="lever" id="" class="lever" min="0" max="5" disabled>
+                    <input type="range" name="lever" id="" class="lever" min="0" max="5" disabled>
+                    <input type="range" name="lever" id="" class="lever" min="0" max="5" disabled>
+                </div>
+                <input type="button" value="launch" class="button" disabled>
             </div>
-            <div class="levers">
-                <input type="range" name="" id="" class="lever">
-                <input type="range" name="" id="" class="lever">
-                <input type="range" name="" id="" class="lever">
-                <input type="range" name="" id="" class="lever">
-                <input type="range" name="" id="" class="lever">
-            </div>
-            <input type="button" value="launch" class="button">
-        </div>
     </div>
 </body>
 </html>
